@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gabrielcalarco.github.io/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `https://gabrielcalarco.github.io/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Coloquio Internacional',
   subHeading: 'Buenos Aires -  Argentina. 9, 10 y 11 de diciembre de 2021',
   // social

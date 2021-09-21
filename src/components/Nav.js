@@ -14,19 +14,19 @@ export default function Nav({ onMenuToggle = () => {} }) {
             }}
             className="menuToggle"
           >
-            <span>Menu</span>
+            <span>Menú</span>
           </a>
           <div id="menu">
             <ul>
               <li>
-                <Link to="/">Home</Link>
-              </li>
+                <Link to="/">Página principal</Link>
+            </li>
               <li>
-                <Link to="/Generic">Generic Page</Link>
+                <Link to="/Generic">Página de ejemplo</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/Elements">Elements</Link>
-              </li>
+              </li>  */}
             </ul>
             <a
               className="close"

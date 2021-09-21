@@ -50,6 +50,7 @@
 		display: block;
 	}
 
+
 	body {
 		line-height: 1;
 	}
@@ -1074,8 +1075,9 @@
 		.content {
 			@include padding(2em, 4em);
 			@include vendor('order', '2');
-			max-width: 48em;
-			width: 60%;
+			// cambios en width para centrar el texto sin imagen (originales 48em; 60%)
+			max-width: 88em;
+			width: 100%;
 		}
 
 		&:nth-child(2n) {
@@ -1375,7 +1377,7 @@
 		padding-top: 3em;
 
 		&:before {
-			background: rgba(0,0,0,0);
+			background: rgba(0, 0, 0, 0);
 			content: '';
 			display: block;
 			display: none;
@@ -1392,7 +1394,7 @@
 		@include vendor('transform', 'translateX(20em)');
 		@include vendor('transition', 'transform #{_duration(menu)} ease');
 		-webkit-overflow-scrolling: touch;
-		background: _palette(accent1, bg);
+		background: _palette(accent6, bg);
 		color: _palette(accent1, fg-bold);
 		height: 100%;
 		max-width: 80%;
@@ -1583,7 +1585,7 @@
 		@include vendor('justify-content', 'center');
 		cursor: default;
 		height: 100vh;
-		min-height: 35em;
+		min-height: 32em;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -1592,12 +1594,13 @@
 			@include vendor('transform', 'scale(1)');
 			@include vendor('transition', ('transform 0.5s ease', 'opacity 0.5s ease'));
 			display: inline-block;
-			font-size: 1.75em;
+			font-size: 1,75em;
 			opacity: 1;
 			padding: 0.35em 1em;
 			position: relative;
-			z-index: 1;
-
+			z-index: 1;	
+			
+			
 			&:before, &:after {
 				@include vendor('transition', 'width 0.85s ease');
 				@include vendor('transition-delay', '0.25s');
@@ -1620,9 +1623,17 @@
 			}
 		}
 
+		h3 {
+			text-align: center;
+			padding: 0.35em 3em;
+		}
+
 		p {
 			letter-spacing: _size(letter-spacing-alt);
 			text-transform: uppercase;
+			font-size: 1,8em;
+			font-weight: _font(weight-bold);
+
 
 			a {
 				color: inherit;

@@ -27,17 +27,17 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-5ba42c7160bd4f930804.js"
+    "url": "webpack-runtime-f059e458598a57b6c86b.js"
   },
   {
     "url": "framework-741ade27086b2708e961.js"
   },
   {
-    "url": "app-16569ae6da7f8f1e91ce.js"
+    "url": "app-a0fc221961fff9374651.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "457f6e4222649438c138a130a4b968c2"
+    "revision": "6b1c4c2811555947ca3f58d1fd25187c"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b0556ce5127c1a3e2490.js"
@@ -48,14 +48,14 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "829606a51d9588b3ae915a0c77914b33"
+    "revision": "152dbc4a56b12399099ba062b8507594"
   },
   {
     "url": "polyfill-1a2e57782b1e35f1f124.js"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "4c5b6209c79599f61b42f1239724e985"
+    "revision": "0de62681bceeca4eea468855ac2dfa9e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -142,12 +142,12 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   lastNavigationRequest = event.request.url
 
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/gabrielcalarco.github.io/coloquio_alfonso_x`), ``)
+  pathname = pathname.replace(new RegExp(`^/github.com/gabrielcalarco/coloquio_alfonso_x`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/gabrielcalarco.github.io/coloquio_alfonso_x/app-16569ae6da7f8f1e91ce.js`))) {
+  if (!resources || !(await caches.match(`/github.com/gabrielcalarco/coloquio_alfonso_x/app-a0fc221961fff9374651.js`))) {
     return await fetch(event.request)
   }
 
@@ -160,7 +160,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/gabrielcalarco.github.io/coloquio_alfonso_x/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/github.com/gabrielcalarco/coloquio_alfonso_x/offline-plugin-app-shell-fallback/index.html`
   const offlineShellWithKey = workbox.precaching.getCacheKeyForURL(offlineShell)
   return await caches.match(offlineShellWithKey)
 })

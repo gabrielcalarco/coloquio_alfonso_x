@@ -9,7 +9,7 @@ import logos6 from '../assets/images/logo6.png'
 export default function Footer() {
   return (
     <footer id="footer">
-      <ul className="icons">
+      {/* <ul className="icons">
         {config.socialLinks.map(social => {
           const { style, icon, name, url } = social;
           return (
@@ -20,7 +20,7 @@ export default function Footer() {
             </li>
           );
         })}
-      </ul>
+      </ul> */}
       <ul className="copyright">
        
         {/* <br /> */}
@@ -33,7 +33,9 @@ export default function Footer() {
         <br/>
         <img src={logos2}  height="80em"/>      <img src={logos4}  height="80em"/> <img src={logos5} width="30%" height="80em"/>      <img src={logos6} height="80em"/>
         <br/>
-        
+        <br/>
+        <br/>
+        <p>diseño web: Gabriel Calarco</p>
       </ul>
     </footer>
   );

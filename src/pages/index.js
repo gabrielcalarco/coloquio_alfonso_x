@@ -24,7 +24,7 @@ const IndexPage = () => (
         <ul className="actions special">
           <li>
             {/* <Scroll type="id" element="one"> */}
-              <a href={programa} className="button primary">
+              <a href="/Programa" className="button primary">
                 programa
               </a>
             {/* </Scroll> */}
@@ -315,7 +315,7 @@ const IndexPage = () => (
 
     <section id="cta" className="wrapper style4">
       <div className="inner">
-        <header>
+        {/* <header>
           <h2>Arcue ut vel commodo</h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
@@ -333,7 +333,7 @@ const IndexPage = () => (
               Learn More
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
     </section>
   </Layout>

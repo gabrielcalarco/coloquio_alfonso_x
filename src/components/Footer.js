@@ -31,7 +31,7 @@ export default function Footer() {
         {/* <li><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a></li> */}
         <img src={logos1} width="30%"/>      <img src={logos3} width="30%" height="64em"/> 
         <br/>
-        <img src={logos2}  height="80em"/>      <img src={logos4}  height="80em"/> <img src={logos5} width="30%" height="80em"/>
+        <img src={logos2}  height="80em"/>      <img src={logos4}  height="80em"/> <img src={logos5} width="30%" height="80em"/>      <img src={logos6} height="80em"/>
         <br/>
         
       </ul>

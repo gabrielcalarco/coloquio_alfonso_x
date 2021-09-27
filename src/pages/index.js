@@ -121,7 +121,7 @@ const IndexPage = () => (
             <br/>
             <li>Santiago Disalvo (IdIHCS. Conicet/UNLP)</li>
             <br/>
-            <li>Gimena Del Río (Conicet)</li>
+            <li>Gimena Del Río Riande (Conicet)</li>
             <br/>
             <li>Laura Fernández (Universidad Complutense de Madrid)</li>
             <br/>
@@ -170,13 +170,33 @@ const IndexPage = () => (
         <br/>
         <li>Daniel Panateri (Conicet/Unsam)</li>
         <br/>
+            </ul>
+          <br/>
+          <br/>
+        </div>
+      </section>
+
+
+      <section className="spotlight">
+    <div className="content">
+    <br/>
+    <br/>
+      <h2>
+      Comité Colaborador:
+      </h2>
+      <br/>
+      <ul>
+
         <li>Gabriel Calarco (Conicet)</li>
+        <br/>
+        <li>Fernanda Varela (FaHCE/UNLP)</li>
         <br/>
             </ul>
           <br/>
           <br/>
         </div>
       </section>
+
 
       <section className="spotlight">
     <div className="content">

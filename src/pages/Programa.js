@@ -3,6 +3,8 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import programa from '../assets/docs/ProgramaBorrador.pdf';
+
+
 const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
@@ -12,6 +14,7 @@ const IndexPage = () => (
         <h3>Coloquio Internacional 800A: 'Qual deve el Rey ser': workshop por los ochocientos años del nacimiento de Alfonso X, el Sabio</h3> 
         {/* <p>Buenos Aires, 9, 10 y 11 de diciembre de 2021</p> */}
       </header>
+      
       <section className="wrapper style5">
         <div className="inner">
           <h3>Jueves 9 de diciembre / Thursday, 9 December </h3>

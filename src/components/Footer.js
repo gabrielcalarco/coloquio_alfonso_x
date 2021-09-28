@@ -21,20 +21,24 @@ export default function Footer() {
           );
         })}
       </ul> */}
-      <ul className="copyright">
-       
-        {/* <br /> */}
-        <li>Publicado bajo licencia <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-Share Alike 4.0 International</a>.</li>
+      
+
+<ul className="copyright">
+      {/* <p>Con el auspicio de:</p> */}
         <br/>
         <br/>
+      <img src={logos1} width="30%"/>      <img src={logos3} width="30%" height="64em"/> 
         <br/>
-        {/* <li><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a></li> */}
-        <img src={logos1} width="30%"/>      <img src={logos3} width="30%" height="64em"/> 
         <br/>
         <img src={logos2}  height="80em"/>      <img src={logos4}  height="80em"/> <img src={logos5} width="30%" height="80em"/>      <img src={logos6} height="80em"/>
         <br/>
         <br/>
+      </ul>
+      <ul className="logos">
+        <br />
+        <li>Publicado bajo licencia <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-Share Alike 4.0 International</a>.</li>        
         <br/>
+        {/* <li><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a></li> */}
         <p>diseño web: Gabriel Calarco</p>
       </ul>
     </footer>

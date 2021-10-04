@@ -191,12 +191,16 @@
 		line-height: 1em;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
 		text-transform: uppercase;
+		// color: blue;
 
 		a {
 			color: inherit;
 			text-decoration: none;
 		}
 	}
+	.titblank {
+		color: rgba(66, 66, 255, 0.774);
+				}
 
 	h2 {
 		font-size: 1.35em;
@@ -339,6 +343,8 @@
 			top: -0.25em;
 		}
 
+		
+
 		h2 + p {
 		}
 
@@ -361,6 +367,8 @@
 				padding-bottom: 1em;
 				position: relative;
 
+				
+
 				&:after {
 					content: '';
 					display: block;
@@ -372,6 +380,7 @@
 				color: _palette(fg);
 				top: 0;
 			}
+			
 
 			@include breakpoint('<=small') {
 				margin: 0 0 _size(element-margin) 0;
@@ -1079,6 +1088,7 @@ background-color: white;
 	.spotlight {
 		@include vendor('align-items', 'center');
 		@include vendor('display', 'flex');
+		// background-color: white;
 
 		.image {
 			@include vendor('order', '1');
@@ -1095,9 +1105,13 @@ background-color: white;
 			@include padding(2em, 4em);
 			@include vendor('order', '2');
 			// cambios en width para centrar el texto sin imagen (originales 48em; 60%)
+			background-color: white;
 			max-width: 88em;
 			width: 100%;
+			color: black;
 		}
+
+		
 
 		&:nth-child(2n) {
 			@include vendor('flex-direction', 'row-reverse');
@@ -1137,6 +1151,7 @@ background-color: white;
 				max-width: none;
 				text-align: center;
 				width: 100%;
+				// color: black;
 			}
 		}
 
@@ -1158,11 +1173,14 @@ background-color: white;
 			strong, b {
 				color: _palette($p, fg-bold);
 			}
+		
 
 			h2, h3, h4, h5, h6 {
 				color: _palette($p, fg-bold);
 			}
-
+			.titblank {
+				color: rgba(66, 66, 255, 0.774);
+						}
 			hr {
 				border-color: _palette($p, border);
 			}
@@ -1181,6 +1199,7 @@ background-color: white;
 				p {
 					color: _palette($p, fg-light);
 				}
+				
 
 				&.major {
 					h2, h3, h4, h5, h6 {
@@ -1190,9 +1209,12 @@ background-color: white;
 					p {
 						color: _palette($p, fg);
 					}
+					
 				}
 			}
 
+
+			
 		// Form
 
 			label {
@@ -1652,7 +1674,8 @@ background-color: white;
 			text-transform: uppercase;
 			font-size: 1,8em;
 			font-weight: _font(weight-bold);
-
+			
+		
 
 			a {
 				color: inherit;
@@ -1767,6 +1790,7 @@ background-color: white;
 				p {
 					color: inherit;
 				}
+				
 			}
 
 			.actions {

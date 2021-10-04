@@ -97,26 +97,20 @@ const IndexPage = () => (
           <p>En ese sentido, a partir de los ochocientos años de su nacimiento, se propone un encuentro que permita avanzar en el conocimiento en torno al desarrollo de la monarquía, la política, el arte, la ciencia y el derecho con vistas a entender el aporte brindado en el desarrollo moderno y contemporáneo tanto de géneros narrativos como de su importancia cardinal en el devenir político del pensamiento jurídico hispanoamericano.</p>
           <p>El objetivo de la reunión es establecer un espacio de trabajo internacional e interdisciplinario en torno a la figura histórica de Alfonso X, el Sabio, a través de sus obras.</p>
           <br/>
-          <br/>
-          <br/>
+          
         </div>
       </section>
+
       
-      
-      
-      <section className="spotlight">
+      {/* <section className="spotlight">
     
         <div className="content">
-        <br/>
-        <br/>
-          <h2>
+}
+          <h2 className="titblank">
           Participantes
           </h2>
           <br/>
-          {/* <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
-          </p> */}
+
           <ul>
             <li>Mario Cossío (Universidad de Alcalá de Henares)</li>
             <br/>
@@ -149,16 +143,14 @@ const IndexPage = () => (
             <li>Jospeh T. Snow (Michigan State University)</li>
             <br/>
             </ul>
-          <br/>
-          <br/>
+       
         </div>
       </section>
 
       <section className="spotlight">
     <div className="content">
-    <br/>
-    <br/>
-      <h2>
+  
+      <h2 className="titblank">
       Comité Organizador:
       </h2>
       <br/>
@@ -172,17 +164,15 @@ const IndexPage = () => (
         <li>Daniel Panateri (Conicet/Unsam)</li>
         <br/>
             </ul>
-          <br/>
-          <br/>
+        
         </div>
       </section>
 
 
       <section className="spotlight">
     <div className="content">
-    <br/>
-    <br/>
-      <h2>
+  ¿
+      <h2  className="titblank">
       Comité Colaborador:
       </h2>
       <br/>
@@ -193,17 +183,15 @@ const IndexPage = () => (
         <li>Fernanda Varela (FaHCE/UNLP)</li>
         <br/>
             </ul>
-          <br/>
-          <br/>
+        
         </div>
       </section>
 
 
       <section className="spotlight">
     <div className="content">
-    <br/>
-    <br/>
-      <h2>
+ 
+      <h2  className="titblank">
       Comité Científico:
       </h2>
       <br/>
@@ -237,10 +225,9 @@ const IndexPage = () => (
         <li>Pablo Ubierna (Conicet-Universidad Pedagógica Nacional)</li>
         <br/> 
           </ul>
-          <br/>
-          <br/>
+      
         </div>
-      </section>
+      </section> */}
 
 
     
@@ -314,8 +301,10 @@ const IndexPage = () => (
       </div>
     </section> */}
 
-    <section id="cta" className="wrapper style4">
-      <div className="inner">
+    {/* <section id="cta" className="wrapper style4">
+      <div className="inner"> */}
+
+
         {/* <header>
           <h2>Arcue ut vel commodo</h2>
           <p>
@@ -335,8 +324,11 @@ const IndexPage = () => (
             </a>
           </li>
         </ul> */}
-      </div>
-    </section>
+      
+      {/* </div>
+    </section> */}
+
+
   </Layout>
 );
 

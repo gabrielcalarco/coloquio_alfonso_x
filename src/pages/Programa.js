@@ -86,7 +86,7 @@ const IndexPage = () => (
          <hr />
          <li><b>10:30 - 10:45 hs. -</b> Coffee Break</li>
          <hr />
-         <li><b>20:45 - 12:45 hs. -</b> Panel 4 (segunda parte):</li>
+         <li><b>10:45 - 12:45 hs. -</b> Panel 4 (segunda parte):</li>
           <br/>
          <p className="tabulado"><b>Fradejas Rueda, José Manuel (Universidad de Valladolid)</b> “Francisco de Velasco, segundo editor de las <i>Siete Partidas</i>”</p>
          <p className="tabulado"><b>Fernández Fernández, Laura (Universidad Complutense de Madrid) </b> “Las Tablas Alfonsíes: nuevas fuentes y testimonios documentales”</p>

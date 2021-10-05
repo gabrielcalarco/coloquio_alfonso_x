@@ -11,35 +11,56 @@ import programa from '../assets/docs/ProgramaBorrador.pdf';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
+     <section className="spotlight">
+        <div className="content">
+        <ul className="actions special">
+          <li>
+              <a href="/coloquio_alfonso_x/Programa" className="button primary">
+                programa 
+              </a>  
+              </li>
+              <li>
+              <a href="/coloquio_alfonso_x/Participantes" className="button primary">
+                Participantes
+              </a>
+              </li>
+              <li>
+              <a href="/coloquio_alfonso_x/Programa" className="button primary">
+                Organización
+              </a>
+              </li>
+        </ul>
+        </div>
+        </section>
     <section id="banner">
       <div className="inner">
+      <br/>
+        <br/>
         <h2>{config.heading}</h2>
         <br/>
         <br/>
         <h3>800A: "Qual deve el Rey ser": workshop por los ochocientos años del nacimiento de Alfonso X el Sabio</h3>
         <br/>
         <p>{config.subHeading}</p>
-        <br/>
+        {/* <br/> */}
      
-        <ul className="actions special">
+        {/* <ul className="actions special">
           <li>
-            {/* <Scroll type="id" element="one"> */}
               <a href="/coloquio_alfonso_x/Programa" className="button primary">
-              {/* <a href="/Programa" className="button primary"> */}
                 programa
               </a>
-            {/* </Scroll> */}
           </li>
         </ul>
-      </div>
-      <br/>
+      </div>*/}
+      {/* <br/>
         <br/>
         <br/>
       <Scroll type="id" element="two">
         <a href="#two" className="more">
           Seguir leyendo
         </a>
-      </Scroll>
+      </Scroll>  */}
+    </div>
     </section>
 
     {/* <section id="one" className="wrapper style1 special">

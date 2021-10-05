@@ -24,7 +24,7 @@ export default function Footer() {
       
 
 <ul className="copyright">
-      {/* <p>Con el auspicio de:</p> */}
+      {/* <p>Con el aval de:</p> */}
         <br/>
         <br/>
       <img src={logos1} width="30%"/>      <img src={logos3} width="30%" height="64em"/> 
@@ -39,7 +39,7 @@ export default function Footer() {
         <li>Publicado bajo licencia <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-Share Alike 4.0 International</a>.</li>        
         <br/>
         {/* <li><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"/></a></li> */}
-        <p>diseño web: Gabriel Calarco</p>
+        {/* <p>diseño web: Gabriel Calarco</p> */}
       </ul>
     </footer>
   );

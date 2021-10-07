@@ -7,6 +7,27 @@ import programa from '../assets/docs/ProgramaBorrador.pdf';
 
 const IndexPage = () => (
   <Layout fullMenu>
+    <section className="spotlight">
+        <div className="content">
+        <ul className="actions special">
+          <li>
+              <a href="/coloquio_alfonso_x/" className="button primary">
+                Inicio 
+              </a>  
+              </li>
+              <li>
+              <a href="/coloquio_alfonso_x/Participantes" className="button primary">
+                Participantes
+              </a>
+              </li>
+              <li>
+              <a href="/coloquio_alfonso_x/Programa" className="button primary">
+                Organización
+              </a>
+              </li>
+        </ul>
+        </div>
+        </section>
     <article id="main">
       <header>
         <h2>Programa</h2>  

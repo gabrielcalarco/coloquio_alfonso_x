@@ -3,7 +3,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 import Scroll from '../components/Scroll';
-
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
@@ -16,7 +15,7 @@ const IndexPage = () => (
         <ul className="actions special">
           <li>
               <a href="/coloquio_alfonso_x/Programa" className="button primary">
-                programa 
+                Programa 
               </a>  
               </li>
               <li>
@@ -25,7 +24,7 @@ const IndexPage = () => (
               </a>
               </li>
               <li>
-              <a href="/coloquio_alfonso_x/Programa" className="button primary">
+              <a href="/coloquio_alfonso_x/Organizacion" className="button primary">
                 Organización
               </a>
               </li>

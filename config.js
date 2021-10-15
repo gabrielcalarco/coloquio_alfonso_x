@@ -18,17 +18,17 @@ module.exports = {
     //   name: 'Gitlab',
     //   url: 'https://github.com/anubhavsrivastava',
     // },
-    {
-      style: 'brands',
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
+    // {
+    //   style: 'brands',
+    //   icon: 'fa-twitter',
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/onlyanubhav',
+    // },
     {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
-      url: 'mailto:test@example.com',
+      url: 'mailto:coloquio800a@unsam.edu.ar',
     },
   ],
 };

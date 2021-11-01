@@ -6,7 +6,7 @@ import Scroll from '../components/Scroll';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
-import programa from '../assets/docs/ProgramaBorrador.pdf';
+import programa from '../assets/docs/Programa.pdf';
 import config from '../../config';
 const IndexPage = () => (
   <Layout>
@@ -29,8 +29,8 @@ const IndexPage = () => (
               </a>
               </li>
               <li>
-              <a href="/coloquio_alfonso_x/Asistentes" className="button primary">
-                Asistentes
+              <a href="/coloquio_alfonso_x/Inscripcion" className="button primary">
+                Inscripción
               </a>
               </li>
         </ul>

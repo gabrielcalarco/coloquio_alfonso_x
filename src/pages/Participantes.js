@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import programa from '../assets/docs/ProgramaBorrador.pdf';
+
 
 
 const IndexPage = () => (
@@ -26,8 +26,8 @@ const IndexPage = () => (
               </a>
               </li>
               <li>
-              <a href="/coloquio_alfonso_x/Asistentes" className="button primary">
-                Asistentes
+              <a href="/coloquio_alfonso_x/Inscripcion" className="button primary">
+                Inscripción
               </a>
               </li>
         </ul>
@@ -80,7 +80,7 @@ const IndexPage = () => (
             <br/>
             <li>Ricardo Pichel (Universidad de Alcalá de Henares)</li>
             <br/>
-            <li>Johan Puigdengolas (Université Toulouse Jean Jeurès)</li>
+            <li>Johan Puigdengolas (Université Toulouse Jean Jaurès)</li>
             <br/>
             <li>Jesús Rodríguez Velasco (Yale University)</li>
             <br/>

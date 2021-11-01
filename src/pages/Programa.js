@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import programa from '../assets/docs/ProgramaBorrador.pdf';
+import programa from '../assets/docs/Programa.pdf';
 
 
 const IndexPage = () => (
@@ -26,8 +26,8 @@ const IndexPage = () => (
               </a>
               </li>
               <li>
-              <a href="/coloquio_alfonso_x/Asistentes" className="button primary">
-                Asistentes
+              <a href="/coloquio_alfonso_x/Inscripcion" className="button primary">
+                Inscripción
               </a>
               </li>
         </ul>
@@ -83,7 +83,7 @@ const IndexPage = () => (
 
           <p className="tabulado"><b>Morin, Alejandro (Universidad Nacional de Córdoba/ Universidad de Buenos Aires/Conicet)</b> “Notas sobre referencias a la moneda en <i>Siete Partidas</i>”</p>
 
-          <p className="tabulado"><b>Panateri, Daniel (Conicet) </b> “Teoría penal en <i>Siete Partidas</i>”</p>
+          <p className="tabulado"><b>Panateri, Daniel (Conicet/Unsam) </b> “Teoría penal en <i>Siete Partidas</i>”</p>
          
          <hr /> 
          <li><b>15:00 - 15:15 hs. -</b> Coffee Break</li>

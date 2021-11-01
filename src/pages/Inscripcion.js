@@ -2,7 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import programa from '../assets/docs/ProgramaBorrador.pdf';
 
 
 const IndexPage = () => (
@@ -35,7 +34,7 @@ const IndexPage = () => (
         </section>
     <article id="main">
       <header>
-        <h2>Asistentes</h2>  
+        <h2>inscripción</h2>  
         <br/>
         {/* <h3>Coloquio Internacional 800A: 'Qual deve el Rey ser': workshop por los ochocientos años del nacimiento de Alfonso X, el Sabio</h3>  */}
         {/* <p>Buenos Aires, 9, 10 y 11 de diciembre de 2021</p> */}
@@ -43,12 +42,12 @@ const IndexPage = () => (
       
       <section className="wrapper style5">
         <div className="inner">
-        <h3 className="titblank">
-          Información importante para quienes deseen asistir al coloquio:
-          </h3>
+        <p className="inscripcion">
+          La asistentencia al Coloquio Internacional 800A: 'Qual deve el Rey ser' es una actividad gratuita. Para participar como asistente solo debe completar el siguiente <a className="enlace" href="https://forms.gle/mMogvcbYaJMzCVvx7" target="_blank">formulario de inscripción</a>.
+       
           <br/>
-          <p>
-            Se otorgaran certificados a quienes se participen como asistenes de las actividades del coloquio. Proximamente se pondrá a disposición el formulario de inscripción.
+          <br/>
+            Se otorgarán certificados a quienes asistan a las actividades del coloquio.
           </p> 
       </div>
 </section>

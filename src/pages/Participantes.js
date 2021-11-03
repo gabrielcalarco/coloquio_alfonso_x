@@ -84,7 +84,7 @@ const IndexPage = () => (
             <br/>
             <li>Jesús Rodríguez Velasco (Yale University)</li>
             <br/>
-            <li>Jospeh T. Snow (Michigan State University)</li>
+            <li>Joseph T. Snow (Michigan State University)</li>
             <br/>
             </ul>
             {/* <hr /> */}

@@ -31,7 +31,7 @@ export default function Footer() {
       <br />
       
       <ul className="icons">
-        <p>Correo de contacto:</p>
+        <p className="centrado">Correo de contacto:</p>
         {config.socialLinks.map(social => {
           const { style, icon, name, url } = social;
           return (

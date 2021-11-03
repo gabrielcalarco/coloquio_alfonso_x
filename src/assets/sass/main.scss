@@ -171,19 +171,8 @@
 		margin: 0 0 _size(element-margin) 0;
 	}
 
-	.tabulado {
-		padding-left: 4.8cm;
-	}
 
-	.tabulado_gris {
-		padding-left: 4.8cm;
-		color: rgb(175, 174, 174);
-	}
-
-	.grande {
-		font-size: 25px;
-	}
-
+	
 
 	h1, h2, h3, h4, h5, h6 {
 		color: _palette(fg-bold);
@@ -2022,6 +2011,20 @@ background-color: white;
 		font-size: 1,9em;
 	
 	}
+
+	.tabulado {
+		padding-left: 2cm;
+	}
+
+	.tabulado_gris {
+		padding-left: 2cm;
+		color: rgb(65, 64, 97);
+	}
+
+	.grande {
+		font-size: 25px;
+	}
+
 
 	.enlace {
 color: rgb(5, 105, 72);		

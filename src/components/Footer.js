@@ -19,7 +19,7 @@ export default function Footer() {
         <br/>
         <br/>
 
-      <img src={logos1} width="350em"/>      <img src={logos3} width="350em" height="64em"/>  <img src={logos5} width="350em" height="80em"/>
+      <img src={logos1} width="300em"  height="55em"/>      <img src={logos3} width="300em" height="55em"/>  <img src={logos5} width="300em" height="60em"/>
         <br/>
         <br/>
         <img src={logos2}  height="80em"/>      <img src={logos7} width="180em"  height="80em"/>    <img src={logos8} width="120em"  height="80em"/>    <img src={logos4} width="160em"  height="80em"/>    <img src={logos6} height="80em"/> 

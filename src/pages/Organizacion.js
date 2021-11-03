@@ -11,22 +11,22 @@ const IndexPage = () => (
         <div className="content">
         <ul className="actions special">
           <li>
-              <a href="/coloquio_alfonso_x/" className="button primary">
+              <a href="/" className="button primary">
                 Inicio 
               </a>  
               </li>
               <li>
-              <a href="/coloquio_alfonso_x/Programa" className="button primary">
+              <a href="/Programa" className="button primary">
                 Programa 
               </a>  
               </li>
               <li>
-              <a href="/coloquio_alfonso_x/Participantes" className="button primary">
+              <a href="/Participantes" className="button primary">
                 Participantes
               </a>
               </li>
               <li>
-              <a href="/coloquio_alfonso_x/Inscripcion" className="button primary">
+              <a href="/Inscripcion" className="button primary">
                 Inscripción
               </a>
               </li>

@@ -61,7 +61,7 @@ const IndexPage = () => (
 
           <p className="tabulado"><b>José  Manuel  Fradejas Rueda (Universidad de Valladolid)</b> “Francisco de Velasco, segundo editor de las <i>Siete Partidas</i>”</p>
 
-          <p className="tabulado"><b>Mario Cossío Olavide (Universidad de Alcalá de Henares)</b> “El <i>Lucidario</i>: otra rebelión literaria contra Alfonso X”</p>
+          <p className="tabulado"><b>Miguel García-Fernández (Instituto de Estudios Gallegos Padre Sarmiento (CSIC-Xunta de Galicia) / Universidade de Santiago de Compostela)</b> “Milia e Sancha Fernandiz, que muit’amo’. El poder nobiliario femenino en tiempos de Alfonso X”</p>
           
          <hr />
          <li><b>10:45 - 11:00 hs. -</b> Coffee Break</li>
@@ -70,9 +70,9 @@ const IndexPage = () => (
          <li><b>11:00 - 12:30 hs. -</b> Panel 1 (segunda parte):</li>
           <br/>
 
-         <p className="tabulado"><b>Miguel García-Fernández (Universidad de Santiago de Compostela)</b> “Milia e Sancha Fernandiz, que muit’amo’. El poder nobiliario femenino en tiempos de Alfonso X”</p>
-
          <p className="tabulado"><b>Alexander Marey (Higher School of Economics)</b> “Cual debe el Rey ser a su tierra: el concepto de la tierra en las <i>Partidas</i>”</p>
+
+         <p className="tabulado"><b>Mario Cossío Olavide (Universidad de Alcalá de Henares)</b> “El <i>Lucidario</i>: otra rebelión literaria contra Alfonso X”</p>
 
          <hr />
          <li><b>12:30 - 13:30 hs. -</b> Almuerzo / Lunch</li>
@@ -96,7 +96,7 @@ const IndexPage = () => (
          
          <p className="tabulado"><b>Johan Puigdengolas (Université Toulouse Jean Jaurès)</b> “Razonamiento alfonsí: la ley XI del <i>Setenario</i> como sistema filosófico”</p>
          
-         <p className="tabulado"><b>Jesús Rodríguez Velasco (Yale University)</b> “¿Cómo no leer las <i>Siete Partidas</i>”</p>
+         <p className="tabulado"><b>Jesús Rodríguez Velasco (Yale University)</b> “Cómo no leer las <i>Siete Partidas</i>”</p>
          
           </ul>
           <hr />    

@@ -86,7 +86,7 @@ const IndexPage = () => (
         <br/>
         <li>Concepción Company Company (Universidad Nacional Autónoma de México)</li>
         <br/>
-        <li>Juan Carlos Conde (University of Oxford)</li>
+        <li>Juan Carlos Conde (IEMYRhd, Universidad de Salamanca)</li>
         <br/>
         <li>Gloria Chicote (IdIHCS. Conicet/ Universidad Nacional de La Plata)</li>
         <br/>

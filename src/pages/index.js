@@ -44,7 +44,7 @@ const IndexPage = () => (
         <br/>
         <br/>
         <h3>800A: "Qual deve el Rey ser": workshop por los ochocientos años del nacimiento de Alfonso X el Sabio</h3>
-        <br/>
+        <p className="centrado">Congreso internacional virtual</p>
         <p className="centrado">{config.subHeading}</p>
         {/* <br/> */}
      

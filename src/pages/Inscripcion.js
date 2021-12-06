@@ -43,11 +43,9 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
         <p className="inscripcion">
-          El Coloquio Internacional 800A: 'Qual deve el Rey ser' es una actividad gratuita. Para participar como asistente solo debe completar el siguiente <a className="enlace" href="https://forms.gle/mMogvcbYaJMzCVvx7" target="_blank">formulario de inscripción</a>.
-       
-          <br/>
-          <br/>
-            Se otorgarán certificados a quienes asistan a las actividades del coloquio.
+          El Coloquio Internacional 800A: 'Qual deve el Rey ser' es una actividad gratuita. Para participar como asistente solo debe completar el siguiente <a className="enlace" href="https://forms.gle/mMogvcbYaJMzCVvx7" target="_blank">formulario de inscripción</a>.</p> 
+          <p className="inscripcion">Las conferencias se realizarán en modalidad virtual, a través de Zoom.</p>
+          <p className="inscripcion">Se otorgarán certificados a quienes asistan a las actividades del coloquio.
           </p> 
       </div>
 </section>

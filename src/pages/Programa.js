@@ -44,9 +44,11 @@ const IndexPage = () => (
       <section className="wrapper style5">
         <div className="inner">
         {/* <hr /> */}
-          <h3 className="titblank">Jueves 9 de diciembre / Thursday, 9 December </h3>
-          <hr />
+         
           <p className="centrado">Los horarios proporcionados en el programa corresponden a la hora local de Argentina (GMT-3).</p>
+          <p className="centrado">Las actividades del coloquio se realizarán en modalidad virtual.</p>
+          <hr />
+          <h3 className="titblank">Jueves 9 de diciembre / Thursday, 9 December </h3>
           <hr />
          <ul>
           <li><b>09:00 - 09:15 hs. -</b> Palabras de Apertura / Opening Speech</li>  
@@ -85,7 +87,7 @@ const IndexPage = () => (
 
           <p className="tabulado"><b>Alejandro Morin (Universidad Nacional de Córdoba/ Universidad de Buenos Aires/Conicet)</b> “Notas sobre referencias a la moneda en <i>Siete Partidas</i>”</p>
 
-          <p className="tabulado"><b>Daniel A. Panateri (Conicet/Unsam)</b> “Teoría penal en <i>Siete Partidas</i>”</p>
+          <p className="tabulado"><b>Daniel A. Panateri (Conicet/Unsam)</b> “Autorreflexión en la teoría jurídica alfonsí”</p>
          
          <hr /> 
          <li><b>15:00 - 15:15 hs. -</b> Coffee Break</li>

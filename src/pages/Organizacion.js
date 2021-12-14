@@ -25,9 +25,14 @@ const IndexPage = () => (
                 Participantes
               </a>
               </li>
-              <li>
+              {/* <li>
               <a href="/Inscripcion" className="button primary">
                 Inscripción
+              </a>
+              </li> */}
+              <li>
+              <a href="/grabaciones" className="button primary">
+                Sesiones grabadas
               </a>
               </li>
         </ul>

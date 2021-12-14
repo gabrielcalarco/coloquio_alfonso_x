@@ -21,13 +21,18 @@ const IndexPage = () => (
               </a>
               </li>
               <li>
-              <a href="/Programa" className="button primary">
+              <a href="/Organizacion" className="button primary">
                 Organización
               </a>
               </li>
-              <li>
+              {/* <li>
               <a href="/Inscripcion" className="button primary">
                 Inscripción
+              </a>
+              </li> */}
+              <li>
+              <a href="/grabaciones" className="button primary">
+                Sesiones grabadas
               </a>
               </li>
         </ul>
@@ -47,19 +52,20 @@ const IndexPage = () => (
          
           <p className="centrado">Los horarios proporcionados en el programa corresponden a la hora local de Argentina (GMT-3).</p>
           <p className="centrado">Las actividades del coloquio se realizarán en modalidad virtual.</p>
+          {/* <p className="centrado">Les solicitamos ingresar a la sala de Zoom con su nombre completo.</p> */}
           <hr />
           <h3 className="titblank">Jueves 9 de diciembre / Thursday, 9 December </h3>
           <hr />
          <ul>
           <li><b>09:00 - 09:15 hs. -</b> Palabras de Apertura / Opening Speech</li>  
-          <p><a href="https://zoom.us/j/6084936323?pwd=eXIxTFpYczNUK2VpTk1UYVd1QkV2UT09" target="_blank">Ingreso a la sala de Zoom</a></p>
+          {/* <p><a href="https://youtu.be/QViSwtjI5aA" target="_blank">Ver la sesión grabada</a></p> */}
           <br/>
           <p className="tabulado"><b>Luis Marina Bravo</b> Consejero  Cultural  del  Centro  Cultural  de  España  en  Buenos Aires,  Agencia  Española  de  Cooperación  Internacional  para  el  Desarrollo (AECID) de la Embajada de España en Argentina.</p>
            
 
           <hr />
           <li><b>09:15 - 10:45 hs. -</b> Panel 1 (primera parte):</li>
-          <p><a href="https://zoom.us/j/6084936323?pwd=eXIxTFpYczNUK2VpTk1UYVd1QkV2UT09" target="_blank">Ingreso a la sala de Zoom</a></p>
+          <p><a href="https://youtu.be/QViSwtjI5aA" target="_blank">Ver la sesión grabada</a></p>
           <br/>
           <p className="tabulado_gris"><b>Coordinadora / Chair: Elisa Caselli</b> </p>
 
@@ -72,7 +78,7 @@ const IndexPage = () => (
          <hr />
 
          <li><b>11:00 - 12:30 hs. -</b> Panel 1 (segunda parte):</li>
-         <p><a href="https://zoom.us/j/6084936323?pwd=eXIxTFpYczNUK2VpTk1UYVd1QkV2UT09" target="_blank">Ingreso a la sala de Zoom</a></p>
+         <p><a href="https://youtu.be/ony2nGPwVQg" target="_blank">Ver la sesión grabada</a></p>
           <br/>
 
          <p className="tabulado"><b>Alexander Marey (Higher School of Economics)</b> “Cual debe el Rey ser a su tierra: el concepto de la tierra en las <i>Partidas</i>”</p>
@@ -84,7 +90,7 @@ const IndexPage = () => (
          <hr />
 
          <li><b>13:30 - 15:00 hs. -</b> Panel 2 (primera parte):</li>
-         <p><a href="https://zoom.us/j/6084936323?pwd=eXIxTFpYczNUK2VpTk1UYVd1QkV2UT09" target="_blank">Ingreso a la sala de Zoom</a></p>
+         <p><a href="https://youtu.be/_EwwktmQm9M" target="_blank">Ver la sesión grabada</a></p>
           <br/>
 
           <p className="tabulado_gris"><b>Coordinador / Chair: Santiago Disalvo</b> </p>
@@ -98,7 +104,7 @@ const IndexPage = () => (
          <hr />
          
          <li><b>15:15 - 16:45 hs. -</b> Panel 2 (segunda parte):</li>
-         <p><a href="https://zoom.us/j/6084936323?pwd=eXIxTFpYczNUK2VpTk1UYVd1QkV2UT09" target="_blank">Ingreso a la sala de Zoom</a></p>
+         <p><a href="https://youtu.be/_EwwktmQm9M" target="_blank">Ver la sesión grabada</a></p>
           <br/>
          
          <p className="tabulado"><b>Johan Puigdengolas (Université Toulouse Jean Jaurès)</b> “Razonamiento alfonsí: la ley XI del <i>Setenario</i> como sistema filosófico”</p>
@@ -111,7 +117,7 @@ const IndexPage = () => (
           <hr />
          <ul>
           <li><b>09:00 - 10:30 hs. -</b> Panel 3 (primera parte):</li>
-          <p><a href="https://zoom.us/j/6084936323?pwd=eXIxTFpYczNUK2VpTk1UYVd1QkV2UT09" target="_blank">Ingreso a la sala de Zoom</a></p>
+          <p><a href="https://youtu.be/GKK-KSNJ5eg" target="_blank">Ver la sesión grabada</a></p>
           <br/>
 
           <p className="tabulado_gris"><b>Coordinadora / Chair: Gimena Del Río Riande</b> </p>
@@ -124,7 +130,7 @@ const IndexPage = () => (
          <li><b>10:30 - 10:45 hs. -</b> Coffee Break</li>
          <hr />
          <li><b>10:45 - 12:15 hs. -</b> Panel 3 (segunda parte):</li>
-         <p><a href="https://zoom.us/j/6084936323?pwd=eXIxTFpYczNUK2VpTk1UYVd1QkV2UT09" target="_blank">Ingreso a la sala de Zoom</a></p>
+         <p><a href="https://youtu.be/GKK-KSNJ5eg" target="_blank">Ver la sesión grabada</a></p>
           <br/>
 
           <p className="tabulado"><b>Ricardo Pichel (Universidad de Alcalá de Henares)</b> “La recepción de las <i>Partidas</i> de Alfonso el Sabio en la Galicia medieval (ss. XIII-XV)”</p>
@@ -138,7 +144,7 @@ const IndexPage = () => (
 
          <ul>
           <li><b>09:00 - 10:30 hs. -</b> Panel 4 (primera parte):</li>
-          <p><a href="https://zoom.us/j/6084936323?pwd=eXIxTFpYczNUK2VpTk1UYVd1QkV2UT09" target="_blank">Ingreso a la sala de Zoom</a></p>
+          <p><a href="https://youtu.be/_QkM4qpAVfY" target="_blank">Ver la sesión grabada</a></p>
           <br/>
           <p className="tabulado_gris"><b>Coordinador / Chair: Daniel A. Panateri</b> </p>
 
@@ -150,7 +156,7 @@ const IndexPage = () => (
          <li><b>10:30 - 10:45 hs. -</b> Coffee Break</li>
          <hr />
          <li><b>10:45 - 12:15 hs. -</b> Panel 4 (segunda parte):</li>
-         <p><a href="https://zoom.us/j/6084936323?pwd=eXIxTFpYczNUK2VpTk1UYVd1QkV2UT09" target="_blank">Ingreso a la sala de Zoom</a></p>
+         <p><a href="https://youtu.be/_QkM4qpAVfY" target="_blank">Ver la sesión grabada</a></p>
           <br/>
          <p className="tabulado"><b>Santiago Disalvo (IdIHCS. Universidad Nacional de La Plata/Conicet)</b> “Inglaterra y el mundo británico en algunas de las <i>Cantigas de Santa María</i>”</p>
 
